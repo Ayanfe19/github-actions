@@ -1,4 +1,4 @@
-FROM python:3.13-slimx
+FROM python:3.13-slim
 WORKDIR /app
 COPY /app /app
 CMD [ "python", "main.py" ]
