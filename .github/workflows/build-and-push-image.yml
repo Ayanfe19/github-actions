@@ -27,5 +27,5 @@ jobs:
         with:
           push: true
           tags: |
-            ${{ vars.DOCKERHUB_USER }}/python-app:latest
+            ${{ vars.DOCKERHUB_USERNAME }}/python-app:latest
             ${{ vars.DOCKERHUB_USER }}/python-app:{{ github.run_id }}
